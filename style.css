@@ -1,0 +1,41 @@
+.title1{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+    font-size:85px;
+    text-shadow: 5px 0px 8px rgb(255, 235, 205);
+    color:rgb(0, 0, 0)
+}
+
+*{
+    background-image: url(recipes/Images/photo-1549590143-d5855148a9d5.avif);
+    opacity:93%;
+
+}
+
+#button{
+    display:inline-block;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration:none;
+    padding:12px 12px;
+    cursor:pointer;
+    color:white;
+    font-size:25px;
+    border:none;
+    border-radius:35px;
+    
+    
+}
+
+#button:hover{
+    background-color:grey;
+    box-shadow: inset 2px,2px,5px #f9f9f9,
+    inset -2px,-2px,5px black;
+}
+
+#button:focus
+#button:active{
+    outline:none;
+    box-shadow: inset 2px,2px,5px #f9f9f9,
+    inset -2px,-2px,5px black;
+}
+
